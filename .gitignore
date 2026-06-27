@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Env files
+.env
+.env.*
+
+# Streamlit
+.streamlit/
+
+# Local data / databases
+*.db
+*.sqlite
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Media / large model artifacts (tracked by you if needed)
+# ml_models/*.task
+
+# Dependency lockfiles (optional; keep if you prefer reproducible installs)
+# Pipenv
+Pipfile.lock
+
+# Logs
+*.log
+
+# macOS Finder metadata in project folders
+static/.DS_Store
+services/ui/.DS_Store
+
